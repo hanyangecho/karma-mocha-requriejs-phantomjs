@@ -340,7 +340,7 @@ it('should equal 55 when n === 9', function () {
 });
 ```
 保存之后立即触发测试，命令行现在显示的应该是下面这样的：
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/img/106.pic.jpg)
+![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/tree/master/img/106.pic.jpg)
 
 ##TDD/BDD
 既然是TDD，抑或BDD，我们就让测试先行。
@@ -438,7 +438,7 @@ test:
 make test
 ```
 结果如下：
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/img/108.pic.jpg)
+![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/tree/master/img/108.pic.jpg)
 ###7、istanbul
 现在看一下代码覆盖率，`istanbul`在`karma`中叫`karma-coverage`
 ```bash
@@ -466,7 +466,7 @@ open:
 ```bash
 make open
 ```
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/img/111.pic.jpg)
+![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/tree/master/img/111.pic.jpg)
 
 好了。全部结束。
 
