@@ -1,0 +1,28 @@
+{
+  "name": "karma",
+  "version": "0.1.0",
+  "description": "unit test",
+  "main": "index.js",
+  "keywords": [
+    "test"
+  ],
+  "scripts": {
+    "karma-init": "karma init",
+    "karma-start": "karma start",
+    "phantom": "mocha-phantomjs index.html"
+  },
+  "author": "hanrui",
+  "devDependencies": {
+    "karma": "^0.12.32",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
+    "karma-coverage": "^0.2.7",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
+    "mocha": "^2.2.4",
+    "mocha-phantomjs": "^3.5.3",
+    "phantomjs": "^1.9.16",
+    "requirejs": "^2.1.17"
+  }
+}

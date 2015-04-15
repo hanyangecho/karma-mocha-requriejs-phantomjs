@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karma example setup with Require.js</title>
+  </head>
+
+  <body>
+  </body>
+  <script src="lib/require.js"></script>
+  <script type="text/javascript">
+  requirejs.config({
+    baseUrl: '.',
+    paths: {
+        'chai': 'lib/chai',
+        'mocha': 'lib/mocha'
+    },
+
+    shim: {
+        'underscore': {
+            exports: '_'
+        }
+    }
+  });
+  // require(['src/main']);
+  require(['src/main', 'mocha'], function (app) {
+      console.log(window.mocha);
+      window.mocha.setup('bdd');
+      require(['test/main'], function () {
+        console.log(window.mochaPhantomJS);
+        if (window.mochaPhantomJS) {
+          window.mochaPhantomJS.run();
+        } else {
+          window.mocha.run();
+        }
+      });
+  });
+  </script>
+  <script type="text/javascript">
+  
+  </script>
+  
+
+
+</html>

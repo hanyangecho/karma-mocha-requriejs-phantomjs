@@ -1,12 +1,12 @@
-# karma-mocha-requriejs-phantomjs
+# karma-mocha-chai-requriejs-phantomjs
 karma moch requirejs phantomjs test
-Testing Require.js code with Karma
+使用karma+mocha+requirejs进行前端单元测试
 ==================================
 
-To get Karma to run with [Require.js] we need two files:
+Karma使用[Require.js]需要下面两个文件:
 
-* `karma.conf.js` &mdash; which configures Karma
-* `test-main.js` &mdash; which configures Require.js for the tests
+* `karma.conf.js` &mdash; Karma配置文件
+* `test-main.js` &mdash; Require.js测试配置文件
 
 Let's say our app has a directory structure which looks something like
 this:
