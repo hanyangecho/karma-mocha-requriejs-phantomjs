@@ -9,7 +9,9 @@ karma moch requirejs phantomjs test
 3. 学习使用断言库 chai : http://chaijs.com/api/bdd/
 4. 学习使用测试率覆盖工具 istanbul : https://github.com/gotwarlost/istanbul
 5. 简单 Makefile 的编写 : http://blog.csdn.net/haoel/article/details/2886
+
 下面一步一步进行介绍：
+
 ###1、第一步，新建一个文件夹
 ```bash
 $ mkdir ut-karma && cd ut-karma
@@ -54,20 +56,8 @@ scripts之后会有用到，这里先去掉：
 ```bash
 $ npm install karma -D
 ```
-抛异常
-```bash
-Refusing to install karma as a dependency of itself
-```
-google了一下，其他安装比较麻烦，就直接配置package.json文件来处理了
 由于仅仅是测试使用，所以就直接配置到devDependencies，而不是dependencies
-当然可以先通过
-```bash
-$ npm info karma
-```
-获取最新版本信息
-```javascript
-'0.12.32': '2015-02-24T19:50:24.539Z'
-```
+
 配置如下：
 ```javascript
 {
