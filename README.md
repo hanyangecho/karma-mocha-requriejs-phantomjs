@@ -124,8 +124,11 @@ init:
 $ make init
 ```
 好了，终于可以初始化了。按照提示一步一步往下，这里有几步需要注意：
+
 第一步，选择`mocha`
+
 第二步，选择`yes`
+
 第六步，
 ```bash
 Do you wanna generate a bootstrap file for RequireJS?
@@ -402,6 +405,9 @@ define(function () {
 我就不想启动浏览器，就像在命令行中查看。每次提交代码就可以在命令行中查看到所有测试运行结果。好吧！那就继续。
 ```bash
 npm install mocha-phantomjs -D
+```
+```
+PhantomJS是一个使用JavaScript或CoffeeScript可编程无界面的Webkit，它够快，且原生支持Dom、CSS、selector、JSON、Canvas以及SVG等，因此对于前端开发人员而言入门门槛较低。而且还支持常见的测试套件，如Jasmine、QUnit、Mocha等等。
 ```
 index.html修改为：
 ```javascript
