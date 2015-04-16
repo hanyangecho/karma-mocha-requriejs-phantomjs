@@ -335,7 +335,7 @@ it('should equal 55 when n === 9', function () {
 保存之后立即触发测试，命令行现在显示的应该是下面这样的：
 ![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/106.pic.jpg)
 
-##TDD/BDD
+####TDD/BDD
 既然是TDD，抑或BDD，我们就让测试先行。
 fibonacci 函数的几个要求:
 ```
