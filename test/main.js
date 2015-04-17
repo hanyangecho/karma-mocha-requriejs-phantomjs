@@ -1,3 +1,3 @@
-define(['./fibonacciTest'], function () {
+define(['./fibonacciTest', './utilTest'], function () {
 
 });

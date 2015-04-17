@@ -6,12 +6,12 @@
   "keywords": [
     "test"
   ],
+  "author": "hanyangecho",
   "scripts": {
     "karma-init": "karma init",
     "karma-start": "karma start",
     "phantom": "mocha-phantomjs index.html"
   },
-  "author": "hanrui",
   "devDependencies": {
     "karma": "^0.12.32",
     "karma-chrome-launcher": "^0.1.7",
